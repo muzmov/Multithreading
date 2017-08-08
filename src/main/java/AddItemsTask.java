@@ -2,10 +2,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Task1 implements Runnable {
+public class AddItemsTask implements Runnable {
     private MyBlockingQueue queue;
 
-    public Task1(MyBlockingQueue queue) {
+    public AddItemsTask(MyBlockingQueue queue) {
         this.queue = queue;
     }
 

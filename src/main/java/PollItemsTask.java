@@ -1,7 +1,7 @@
-public class Task2 implements Runnable {
+public class PollItemsTask implements Runnable {
     private MyBlockingQueue queue;
 
-    public Task2(MyBlockingQueue queue) {
+    public PollItemsTask(MyBlockingQueue queue) {
         this.queue = queue;
     }
 
