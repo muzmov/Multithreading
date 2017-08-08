@@ -6,7 +6,12 @@
 
     <groupId>net.kuryshev</groupId>
     <artifactId>Multithreading</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -46,6 +51,7 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
+                    <finalName>Multithreading</finalName>
                 </configuration>
             </plugin>
         </plugins>
